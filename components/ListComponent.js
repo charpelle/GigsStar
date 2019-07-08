@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-const ImageList = () => {
+const ListComponent = () => {
   return (
     <View>
       <Text></Text>
@@ -9,4 +9,4 @@ const ImageList = () => {
   )
 }
 
-export default ImageList
+export default ListComponent
