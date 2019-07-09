@@ -1,12 +1,14 @@
 import { createAppContainer, createStackNavigator } from 'react-navigation'
 
 import Home from '../screens/HomeScreen';
-import Book from '../screens/BookScreen';
+import Gig from '../screens/GigScreen';
+import NewGig from '../screens/NewGig';
 
 export default createAppContainer(createStackNavigator({
-  
   Home,
-  Book,
+  NewGig,
+ 
+  Gig
 }, {
   headerMode: 'none'
 }))
